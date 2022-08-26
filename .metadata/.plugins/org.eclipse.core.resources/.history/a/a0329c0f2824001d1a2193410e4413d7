@@ -1,0 +1,69 @@
+package basic.dev;
+
+import java.util.Scanner;
+
+public class MainApp {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// Nhập thông tin sinh viên
+		System.out.print("Nhap ten sinh vien: ");
+		String tenSV = sc.nextLine();
+		System.out.print("Nhap ma sinh vien: ");
+		String maSV = sc.nextLine();
+		System.out.print("Nhap chung minh nhanh dan: ");
+		String cMND = sc.nextLine();
+		System.out.print("Nhap ten lop: ");
+		String tenLop = sc.nextLine();
+		System.out.print("Nhap ten truong: ");
+		String tenTrg = sc.nextLine();
+		System.out.print("Nhap diem trung binh: ");
+		float dTB = sc.nextFloat();
+		
+		// Nhập thông tin công nhân: 
+		System.out.print("Nhap ten cong nhan: ");
+		String tenCN = sc.nextLine();
+		System.out.print("Nhap dia chi cong nhan: ");
+		String diaChi = sc.nextLine();
+		System.out.print("Nhap so dien thoai: ");
+		String soDT = sc.nextLine();
+		System.out.print("Nhap he so luong: ");
+		float heSoLg = sc.nextFloat();
+		
+		// Nhập thông tin xe hơi:
+		System.out.print("Nhap ten xe: ");
+		String tenXe = sc.nextLine();
+		System.out.print("Nhap ten hang: ");
+		String hangXe = sc.nextLine();
+		System.out.print("Nhap gia: ");
+		String giaXe = sc.nextLine();
+		System.out.print("Nhap mau son: ");
+		String mauSon = sc.nextLine();
+		
+		// Xuất ra thông tin của từng đối tượng: 
+		
+		/* Học sinh */
+		
+		System.out.println("----Thông tin sinh viên----");
+		System.out.print("Tên sinh viên: "+tenSV);
+		System.out.print("Mã sinh viên: "+maSV);
+		System.out.print("Chứng minh nhân dân: "+cMND);
+		System.out.print("Tên lớp: "+tenLop);
+		System.out.print("Tên trường: "+tenTrg);
+		System.out.print("Điểm trung bình: "+dTB);
+		
+		/* Công nhân */
+		System.out.println("====Thông tin công nhân====");
+		System.out.print("Tên công nhân: "+tenCN);
+		System.out.print("Địa chỉ công nhân: "+diaChi);
+		System.out.print("Số điện thoại: "+soDT);
+		System.out.print("Hệ số lương: "+heSoLg);
+		
+		/* Xe hơi */
+		System.out.println("++++Thông tin xe hơi++++");
+		System.out.print("Tên xe hơi: "+tenXe);
+		System.out.print("Tên hãng xe: "+hangXe);
+		System.out.print("Giá xe: "+giaXe);
+		System.out.print("Màu sơn :"+mauSon);
+		
+		}
+}

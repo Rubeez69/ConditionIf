@@ -1,0 +1,23 @@
+package basic.dev;
+
+import java.util.Scanner;
+
+public class MainApp {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// Nhập thông tin sinh viên
+		System.out.print("Nhap ten sinh vien: ");
+		String tenSV = sc.nextLine();
+		System.out.print("Nhap ma sinh vien: ");
+		String maSV = sc.nextLine();
+		System.out.print("Nhap chung minh nhanh dan: ");
+		String cMND = sc.nextLine();
+		System.out.print("Nhap ten lop: ");
+		String tenLop = sc.nextLine();
+		System.out.print("Nhap ten truong: ");
+		String tenTrg = sc.nextLine();
+		System.out.print("Nhap diem trung binh: ");
+		float dTB = sc.nextFloat();
+				
+		}
+}

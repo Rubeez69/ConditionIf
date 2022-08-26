@@ -1,0 +1,14 @@
+package basic.dev;
+
+import java.util.Scanner;
+
+public class MainApp {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a,b;
+		System.out.println("Nhap vao 2 so nguyen a, b: ");
+		a = sc.nextInt();
+		b = sc.nextInt();
+		System.out.format("a la %d, b la %d", a, b).println();
+	}
+}
